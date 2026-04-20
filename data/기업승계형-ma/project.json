@@ -1,0 +1,16 @@
+{
+  "id": "기업승계형-ma",
+  "name": "기업승계형 M&A",
+  "srt_path": "",
+  "audio_path": "audio/기업승계형-ma.mp3",
+  "created_at": "2026-04-20T22:14:25+0900",
+  "updated_at": "2026-04-20T13:35:23.000Z",
+  "status": "draft",
+  "total_duration_ms": 84831,
+  "render": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "stylePack": "clean-enterprise"
+  }
+}

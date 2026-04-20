@@ -1,0 +1,313 @@
+[
+  {
+    "name": "anthropic",
+    "path": "assets/anthropic.svg",
+    "type": "brand-logo",
+    "format": "svg",
+    "keywords": [
+      "ai",
+      "claude",
+      "anthropic",
+      "llm"
+    ]
+  },
+  {
+    "name": "blog",
+    "path": "assets/blog.webp",
+    "type": "icon",
+    "format": "webp",
+    "keywords": [
+      "blog"
+    ]
+  },
+  {
+    "name": "claudecode",
+    "path": "assets/claudecode.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "claudecode"
+    ]
+  },
+  {
+    "name": "cli",
+    "path": "assets/cli.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "cli"
+    ]
+  },
+  {
+    "name": "default",
+    "path": "assets/characters/smurf/default.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "default"
+    ]
+  },
+  {
+    "name": "fastapi",
+    "path": "assets/fastapi.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "fastapi"
+    ]
+  },
+  {
+    "name": "figma",
+    "path": "assets/figma.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "design",
+      "figma",
+      "ui"
+    ]
+  },
+  {
+    "name": "gemini",
+    "path": "assets/gemini.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "ai",
+      "google",
+      "gemini"
+    ]
+  },
+  {
+    "name": "gmail",
+    "path": "assets/gmail.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "gmail",
+      "email",
+      "google"
+    ]
+  },
+  {
+    "name": "google",
+    "path": "assets/google.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "ai",
+      "google",
+      "gemini"
+    ]
+  },
+  {
+    "name": "greeting",
+    "path": "assets/characters/smurf/greeting.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "greeting"
+    ]
+  },
+  {
+    "name": "instagram",
+    "path": "assets/instagram.avif",
+    "type": "icon",
+    "format": "avif",
+    "keywords": [
+      "instagram",
+      "social",
+      "meta"
+    ]
+  },
+  {
+    "name": "introduce",
+    "path": "assets/characters/smurf/introduce.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "introduce"
+    ]
+  },
+  {
+    "name": "javascript",
+    "path": "assets/javascript.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "javascript",
+      "js",
+      "language"
+    ]
+  },
+  {
+    "name": "nextjs",
+    "path": "assets/nextjs.svg",
+    "type": "brand-logo",
+    "format": "svg",
+    "keywords": [
+      "nextjs",
+      "react",
+      "framework"
+    ]
+  },
+  {
+    "name": "notebooklm",
+    "path": "assets/notebooklm.webp",
+    "type": "icon",
+    "format": "webp",
+    "keywords": [
+      "notebooklm"
+    ]
+  },
+  {
+    "name": "notion",
+    "path": "assets/notion.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "notion",
+      "productivity",
+      "notes"
+    ]
+  },
+  {
+    "name": "openai",
+    "path": "assets/openai.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "ai",
+      "openai",
+      "gpt",
+      "chatgpt"
+    ]
+  },
+  {
+    "name": "opencode",
+    "path": "assets/opencode.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "opencode"
+    ]
+  },
+  {
+    "name": "pencil",
+    "path": "assets/pencil.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "pencil"
+    ]
+  },
+  {
+    "name": "pointing",
+    "path": "assets/characters/smurf/pointing.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "pointing"
+    ]
+  },
+  {
+    "name": "pride",
+    "path": "assets/characters/smurf/pride.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "pride"
+    ]
+  },
+  {
+    "name": "Python",
+    "path": "assets/Python.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "python",
+      "py",
+      "language"
+    ]
+  },
+  {
+    "name": "satisfied",
+    "path": "assets/characters/smurf/satisfied.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "satisfied"
+    ]
+  },
+  {
+    "name": "supabase",
+    "path": "assets/supabase.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "supabase",
+      "database",
+      "backend"
+    ]
+  },
+  {
+    "name": "surprised",
+    "path": "assets/characters/smurf/surprised.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "surprised"
+    ]
+  },
+  {
+    "name": "thinking",
+    "path": "assets/characters/smurf/thinking.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "thinking"
+    ]
+  },
+  {
+    "name": "Threads",
+    "path": "assets/Threads.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "threads",
+      "social",
+      "meta"
+    ]
+  },
+  {
+    "name": "thumbsUp",
+    "path": "assets/characters/smurf/thumbsUp.png",
+    "type": "character",
+    "format": "png",
+    "keywords": [
+      "thumbsup"
+    ]
+  },
+  {
+    "name": "typescript",
+    "path": "assets/typescript.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "typescript",
+      "ts",
+      "language"
+    ]
+  },
+  {
+    "name": "youtube",
+    "path": "assets/youtube.png",
+    "type": "brand-logo",
+    "format": "png",
+    "keywords": [
+      "youtube",
+      "video",
+      "google"
+    ]
+  }
+]

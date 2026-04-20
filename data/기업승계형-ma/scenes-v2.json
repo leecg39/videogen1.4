@@ -1,0 +1,561 @@
+[
+  {
+    "id": "video-seg-1",
+    "project_id": "기업승계형-ma",
+    "beat_index": 0,
+    "layout_family": "hero-center",
+    "start_ms": 0,
+    "end_ms": 10370,
+    "duration_frames": 312,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "오너의 은퇴 시점과 지분 구조를 먼저 함께 봅니다. 승계 시계가 움직이기 시작하면 준비를 미룰수록 선택지는 빠르게 줄어듭니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 0,
+            "muted": true,
+            "frame3d": true
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-2",
+    "project_id": "기업승계형-ma",
+    "beat_index": 1,
+    "layout_family": "hero-center",
+    "start_ms": 10370,
+    "end_ms": 20936,
+    "duration_frames": 317,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "후계자 부재에 상속세 부담까지 겹치면 내부 승계만으로는 버티기 어렵습니다. 자금과 경영 공백을 함께 메울 대안이 필요합니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 6000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-2",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-3",
+    "project_id": "기업승계형-ma",
+    "beat_index": 2,
+    "layout_family": "hero-center",
+    "start_ms": 20936,
+    "end_ms": 31839,
+    "duration_frames": 328,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "승계형 엠앤에이는 단순 매각이 아니라 경영의 바통을 안전하게 넘기는 방식입니다. 대표의 엑시트와 회사의 연속성을 함께 설계할 수 있습니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 12000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-3",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-4",
+    "project_id": "기업승계형-ma",
+    "beat_index": 3,
+    "layout_family": "hero-center",
+    "start_ms": 31839,
+    "end_ms": 42587,
+    "duration_frames": 323,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "좋은 인수자는 가격만 보지 않고 조직과 거래처의 연속성까지 함께 봅니다. 핵심 인력이 남아야 기업가치도 안정적으로 이어집니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 18000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-4",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-5",
+    "project_id": "기업승계형-ma",
+    "beat_index": 4,
+    "layout_family": "hero-center",
+    "start_ms": 42587,
+    "end_ms": 53932,
+    "duration_frames": 341,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "인수 직후 바로 통합하기보다 일정 기간 공동경영으로 잇는 방식이 자주 쓰입니다. 현장 지식이 이어져 직원과 고객의 불안을 줄일 수 있습니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 24000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-5",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-6",
+    "project_id": "기업승계형-ma",
+    "beat_index": 5,
+    "layout_family": "hero-center",
+    "start_ms": 53932,
+    "end_ms": 64023,
+    "duration_frames": 303,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "딜 구조는 지분 비율과 잔금 일정, 경업 조항을 따로 보지 않습니다. 숫자보다 운영권이 어떤 순서로 넘어가는지가 더 중요합니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 30000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-6",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-7",
+    "project_id": "기업승계형-ma",
+    "beat_index": 6,
+    "layout_family": "hero-center",
+    "start_ms": 64023,
+    "end_ms": 74984,
+    "duration_frames": 329,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "실사 단계에서는 재무보다 세무나 노무 이슈가 더 크게 드러나는 경우도 많습니다. 자료가 정리돼 있어야 가격 조정 요구에도 흔들리지 않습니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 36000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-7",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "crossfade",
+      "durationFrames": 18
+    }
+  },
+  {
+    "id": "video-seg-8",
+    "project_id": "기업승계형-ma",
+    "beat_index": 7,
+    "layout_family": "hero-center",
+    "start_ms": 74984,
+    "end_ms": 84831,
+    "duration_frames": 296,
+    "components": [],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "",
+      "supporting": null,
+      "footer_caption": null
+    },
+    "motion": {
+      "entrance": "fade",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 600
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "video-demo",
+      "tone": "instructional",
+      "evidence_type": "visual",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 1
+    },
+    "narration": "마지막 판단 기준은 최고가보다 앞으로 10년을 맡길 운영 역량입니다. 승계형 엠앤에이는 매각보다 연결에 가까운 결정입니다.",
+    "subtitles": [],
+    "stack_root": {
+      "id": "scene-root",
+      "type": "SceneRoot",
+      "layout": {
+        "padding": "0px",
+        "gap": 0
+      },
+      "children": [
+        {
+          "id": "video",
+          "type": "VideoCanvas",
+          "data": {
+            "src": "videos/기업승계형-ma/source.mp4",
+            "mediaAspect": 1.7777777777777777,
+            "startFrom": 42000,
+            "muted": true,
+            "frame3d": true
+          }
+        },
+        {
+          "id": "sfx-whoosh-8",
+          "type": "SfxAudio",
+          "data": {
+            "src": "sfx/whoosh.mp3",
+            "startFrame": 0,
+              "volume": 0.55
+          }
+        }
+      ]
+    },
+    "transition": {
+      "type": "none",
+      "durationFrames": 0
+    }
+  }
+]

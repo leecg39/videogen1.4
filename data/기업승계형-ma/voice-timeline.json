@@ -1,0 +1,45 @@
+{
+  "total_ms": 84831,
+  "segments": [
+    {
+      "id": "seg-1",
+      "offset_ms": 0,
+      "duration_ms": 10370
+    },
+    {
+      "id": "seg-2",
+      "offset_ms": 10370,
+      "duration_ms": 10566
+    },
+    {
+      "id": "seg-3",
+      "offset_ms": 20936,
+      "duration_ms": 10903
+    },
+    {
+      "id": "seg-4",
+      "offset_ms": 31839,
+      "duration_ms": 10748
+    },
+    {
+      "id": "seg-5",
+      "offset_ms": 42587,
+      "duration_ms": 11345
+    },
+    {
+      "id": "seg-6",
+      "offset_ms": 53932,
+      "duration_ms": 10091
+    },
+    {
+      "id": "seg-7",
+      "offset_ms": 64023,
+      "duration_ms": 10961
+    },
+    {
+      "id": "seg-8",
+      "offset_ms": 74984,
+      "duration_ms": 9847
+    }
+  ]
+}

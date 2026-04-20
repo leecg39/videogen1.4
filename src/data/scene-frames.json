@@ -1,0 +1,396 @@
+{
+  "_doc": "장면 프레임 카탈로그 — 구조는 고정, 내용물은 변주",
+  "_usage": "씬 설계 시: 1) 프레임 선택 → 2) 각 슬롯에 적절한 컴포넌트 배치",
+  "frames": [
+    {
+      "id": "F1-vertical-stack",
+      "name": "수직 적층",
+      "description": "1열에 요소를 위에서 아래로 쌓는 가장 기본 구조. 슬롯 수와 요소 유형에 따라 무한 변주.",
+      "reference": ["SC 1", "SC 6", "SC 8", "SC 14", "SC 50"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목/키커/배지"},
+          {"id": "focal", "position": "center", "height": "50-60%", "role": "주인공 — 거대 숫자, 아이콘, 차트, 텍스트"},
+          {"id": "support", "position": "center-bottom", "height": "20%", "role": "보조 — 리스트, 캡션, 차트, 배지행"},
+          {"id": "accent", "position": "bottom", "height": "10%", "role": "강조문 또는 캡션"}
+        ]
+      },
+      "slot_variations": {
+        "focal": ["ImpactStat(거대)", "RingChart(큰)", "DevIcon(400+)", "Headline(xl)", "SvgGraphic(일러스트)", "ImageAsset"],
+        "support": ["BulletList(색상바/체크/숫자)", "CompareBars", "ProgressBar", "Badge행", "BodyText", "없음"],
+        "header": ["Kicker", "Badge", "NumberCircle+텍스트", "없음"]
+      },
+      "examples": [
+        "SC1: Kicker → 거대숫자 '10~30개' → 미니바차트 → 캡션",
+        "SC8: 경고아이콘 → Badge '2번째 인사이트' → 캡션",
+        "SC14: SVG모니터 → 이름(accent) → 거대숫자 '300만' → 부제",
+        "SC50: 제목 → 색상바 글머리 3줄"
+      ]
+    },
+    {
+      "id": "F2-icon-rows",
+      "name": "아이콘 행 적층 (커넥터)",
+      "description": "아이콘+텍스트 행이 수직으로 쌓이고, 행 사이에 연결선/화살표. SC9가 대표.",
+      "reference": ["SC 9", "SC 48", "SC 49", "SC 55"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목"},
+          {"id": "rows", "position": "center", "height": "60%", "role": "N개 행 (아이콘 + 제목 + 부제), 행 사이 커넥터"},
+          {"id": "accent", "position": "bottom", "height": "10%", "role": "마지막 행 색상 강조 또는 요약"}
+        ]
+      },
+      "slot_variations": {
+        "row_icon": ["이모지/SVG 원형", "숫자 원", "체크마크", "브랜드 로고", "작은 차트"],
+        "row_text": ["제목+부제 2줄", "제목만 1줄", "제목+Badge"],
+        "connector": ["수직선", "화살표", "점선", "없음"],
+        "row_count": [2, 3, 4, 5],
+        "accent_style": ["마지막행 색상강조", "전체 다른 색", "요약 텍스트"]
+      },
+      "examples": [
+        "SC9: 제목 → (검색아이콘+'사용자 불만 채널 탐색') | (문서아이콘+'오류보고서') | (체크아이콘+'결과물을 들고 온다'[녹색])",
+        "SC55: 3행 (눈아이콘+'이미지 인식'+1등배지) | (영상아이콘+'영상 분석'+1등배지) | (문서아이콘+'대량 문서'+1등배지) → 트로피"
+      ]
+    },
+    {
+      "id": "F3-two-column-split",
+      "name": "좌우 2열 분할",
+      "description": "화면을 좌/우로 나누고 각각 독립 콘텐츠. 비대칭(1:2, 2:1) 또는 대칭(1:1).",
+      "reference": ["SC 3", "SC 7", "SC 13", "SC 21"],
+      "structure": {
+        "columns": 2,
+        "zones": [
+          {"id": "header", "position": "top-full", "height": "10%", "role": "제목 (전체 너비)"},
+          {"id": "left", "position": "left", "width": "40-60%", "role": "아이콘/이미지/차트 또는 텍스트"},
+          {"id": "right", "position": "right", "width": "40-60%", "role": "텍스트/리스트/차트 또는 아이콘"},
+          {"id": "divider", "position": "center-vertical", "role": "수직선 또는 화살표 (선택)"},
+          {"id": "footer", "position": "bottom-full", "height": "10%", "role": "요약문"}
+        ]
+      },
+      "slot_variations": {
+        "left": ["큰 아이콘/로고", "SVG 일러스트", "RingChart", "인물사진(원형)", "CompareBars"],
+        "right": ["Headline+BodyText", "BulletList", "ImpactStat+label", "IconCard행"],
+        "divider": ["수직선", "화살표", "vs 배지", "없음"],
+        "ratio": ["1:1(대칭)", "1:2(우측강조)", "2:1(좌측강조)"]
+      },
+      "examples": [
+        "SC3: (물음표아이콘+'AI 마케팅'+글머리3줄) | (체크아이콘+'앤트로픽 내부'+녹색글머리3줄)",
+        "SC7: (X아이콘+'단순 도구'+설명2줄) | 수직선 | (타깃아이콘+'패러다임 전환'+설명2줄) → 강조문",
+        "SC21: SVG문서일러스트 | 번호+'지시서'+제목+인용문3줄"
+      ]
+    },
+    {
+      "id": "F4-horizontal-card-row",
+      "name": "수평 카드 행",
+      "description": "2~4개 카드를 가로로 나열. 카드마다 라벨+값 또는 아이콘+텍스트.",
+      "reference": ["SC 16", "SC 35", "SC 38", "SC 45"],
+      "structure": {
+        "columns": "2-4",
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목"},
+          {"id": "cards", "position": "center", "height": "50%", "role": "N개 카드 가로 배열"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "캡션"}
+        ]
+      },
+      "slot_variations": {
+        "card_content": ["라벨+큰값", "아이콘+제목+설명", "RingChart+라벨", "썸네일+제목", "숫자+텍스트"],
+        "card_count": [2, 3, 4],
+        "card_style": ["보더있음", "배경색", "투명", "그라데이션보더"],
+        "highlight": ["하나만 강조색", "전부 다른 색", "전부 동일"]
+      },
+      "examples": [
+        "SC16: 3카드 (월AI투자 50~100만원 | 목표 극한까지 | 성과 최고 성장)",
+        "SC45: 3개 RingChart (70%녹색 | 50%노랑 | 40%빨강) + 라벨",
+        "SC35: 4개 와이어프레임 카드"
+      ]
+    },
+    {
+      "id": "F5-flow-process",
+      "name": "흐름도/프로세스",
+      "description": "박스들이 화살표로 연결된 수평 또는 순환 흐름.",
+      "reference": ["SC 6", "SC 17", "SC 25", "SC 32"],
+      "structure": {
+        "columns": "3-7",
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목"},
+          {"id": "flow", "position": "center", "height": "40%", "role": "N개 박스 + 화살표 연결"},
+          {"id": "footer", "position": "bottom", "height": "15%", "role": "강조문"}
+        ]
+      },
+      "slot_variations": {
+        "node_content": ["텍스트박스", "숫자원+라벨", "아이콘+라벨", "카드(라벨+설명)"],
+        "connector": ["화살표→", "점선→", "루프↩", "없음"],
+        "highlight": ["하나만 accent색", "마지막 accent", "전부 동일", "그라데이션"],
+        "direction": ["좌→우", "순환(원형)", "위→아래"]
+      },
+      "examples": [
+        "SC6: 키커 → 아이콘 → 거대텍스트 → 3박스흐름(회→흰→녹) → 캡션",
+        "SC17: 3박스(프롬프트→AI자동실행→결과반환) + 루프화살표 → 아이콘+강조문",
+        "SC25: 7개 숫자원(1~7) 수평, 3번만 녹색 강조 → 강조문"
+      ]
+    },
+    {
+      "id": "F6-ring-center",
+      "name": "중앙 원형 차트",
+      "description": "큰 RingChart/도넛이 화면 중앙을 지배. 내부에 숫자, 아래에 리스트.",
+      "reference": ["SC 11", "SC 12", "SC 19", "SC 44"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목"},
+          {"id": "ring", "position": "center", "height": "50%", "role": "큰 RingChart (내부에 거대 숫자)"},
+          {"id": "detail", "position": "below-ring", "height": "20%", "role": "글머리 리스트 또는 Badge행"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "캡션"}
+        ]
+      },
+      "slot_variations": {
+        "ring_content": ["백분율", "정수", "텍스트"],
+        "ring_color": ["녹색", "다색(구간별)", "노랑", "빨강"],
+        "detail": ["BulletList", "Badge행 5개", "BodyText", "없음"]
+      },
+      "examples": [
+        "SC11: '기획자의 핵심 경쟁력' → RingChart 100% → 글머리3줄",
+        "SC12: 'Anthropic 생산성' → RingChart 200% → 이모지+캡션",
+        "SC19: '컨텍스트' → RingChart 68% → Badge 5개행"
+      ]
+    },
+    {
+      "id": "F7-number-hero",
+      "name": "숫자 히어로 + 바 차트",
+      "description": "섹션 번호 또는 거대 숫자가 상단을 지배하고, 아래에 비교 바.",
+      "reference": ["SC 5", "SC 15", "SC 54"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "number", "position": "top", "height": "25%", "role": "거대 숫자 또는 섹션번호 (accent색, fontSize 80+)"},
+          {"id": "headline", "position": "below-number", "height": "15%", "role": "제목 (accent 단어 포함)"},
+          {"id": "divider", "position": "center", "role": "수평선"},
+          {"id": "bars", "position": "center-bottom", "height": "30%", "role": "CompareBars 또는 ProgressBar (라벨+설명+값)"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "캡션"}
+        ]
+      },
+      "slot_variations": {
+        "number_style": ["섹션번호 '01'", "백분율 '153%'", "금액 '3,000만원+'", "수량"],
+        "bars_type": ["CompareBars 2개", "ProgressBar 여러개", "없음(텍스트로 대체)"]
+      },
+      "examples": [
+        "SC5: '01'(녹색거대) → '코딩이라는 행위 자체는 이미 해결된 문제' → 구분선 → CompareBars(전통개발 10 vs AI 10) → 캡션",
+        "SC15: Badge'다섯번째' → 인물아이콘+'3,000만원+' → '비용 비교' → 2개 바(연봉 vs AI이용료) → 캡션"
+      ]
+    },
+    {
+      "id": "F8-brand-transfer",
+      "name": "브랜드/인물 카드",
+      "description": "인물 이름 또는 브랜드를 크게 보여주고, 로고 간 이동(→)을 표현.",
+      "reference": ["SC 2", "SC 30"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "name", "position": "top", "height": "20%", "role": "인물/브랜드명 (거대, accent색)"},
+          {"id": "divider", "position": "below-name", "role": "수평선"},
+          {"id": "logos", "position": "center", "height": "35%", "role": "로고A → 화살표 → 로고B (수평 배치)"},
+          {"id": "labels", "position": "below-logos", "height": "15%", "role": "각 로고 아래 라벨+설명"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "캡션"}
+        ]
+      },
+      "slot_variations": {
+        "logo_type": ["브랜드 로고", "인물사진(원형)", "DevIcon", "SVG아이콘"],
+        "transfer": ["화살표→", "vs", "타임라인(BC469─2025)", "없음(단독)"],
+        "label": ["회사명+직책", "연도", "설명문"]
+      },
+      "examples": [
+        "SC2: '보리스'(거대녹색) → 구분선 → 메타로고→앤트로픽로고 → 라벨+설명 → 캡션",
+        "SC30: 타임라인(BC469─2025) → 소크라테스사진(원형)+'2500년' → 캡션"
+      ]
+    },
+    {
+      "id": "F9-cycle-orbit",
+      "name": "순환/궤도 다이어그램",
+      "description": "중앙에 핵심 개념, 주변에 단계/요소가 원형으로 배치.",
+      "reference": ["SC 19", "SC 24", "SC 26", "SC 28"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목"},
+          {"id": "orbit", "position": "center", "height": "65%", "role": "중앙 텍스트/아이콘 + 주변 N개 노드 원형 배치 + 연결선"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "캡션"}
+        ]
+      },
+      "slot_variations": {
+        "center": ["텍스트", "아이콘", "숫자"],
+        "orbit_nodes": ["숫자원+라벨", "아이콘+라벨", "Badge", "텍스트박스"],
+        "node_count": [3, 4, 5, 6],
+        "connection": ["원형선", "화살표", "점선"]
+      },
+      "examples": [
+        "SC19: 'RALPH WIGGUM LOOP' → 4개 숫자원(1지시서읽기→2작업실행→3진행기록→4새로시작) 원형 → 중앙'매번 새로 시작'"
+      ]
+    },
+    {
+      "id": "F10-grid",
+      "name": "격자 배열",
+      "description": "N×M 격자에 동일 형태의 항목을 배치. 목차, 인덱스, 카탈로그.",
+      "reference": ["SC 4", "SC 36"],
+      "structure": {
+        "columns": "3-4",
+        "rows": "2-4",
+        "zones": [
+          {"id": "header", "position": "top", "height": "15%", "role": "제목 (숫자+accent)"},
+          {"id": "grid", "position": "center", "height": "55%", "role": "N×M 셀 (각 셀: 숫자 또는 라벨)"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "캡션"}
+        ]
+      },
+      "slot_variations": {
+        "cell_content": ["숫자만", "아이콘+라벨", "숫자+제목+설명", "썸네일"],
+        "grid_size": ["3×2", "4×3", "2×2", "5×2"],
+        "highlight": ["없음", "일부셀 강조", "행별 색상"]
+      },
+      "examples": [
+        "SC4: '12가지 인사이트' → 4×3 격자(01~12) → 캡션"
+      ]
+    },
+    {
+      "id": "F11-labeled-bars",
+      "name": "라벨 비교 바",
+      "description": "좌측 라벨+설명, 우측 수평 바+값. 정량 비교에 최적.",
+      "reference": ["SC 5", "SC 13", "SC 15"],
+      "structure": {
+        "columns": 1,
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "제목"},
+          {"id": "bars", "position": "center", "height": "50%", "role": "N개 바 행 (라벨+설명 | 바 | 값)"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "강조 캡션"}
+        ]
+      },
+      "slot_variations": {
+        "bar_label": ["브랜드로고+이름", "텍스트만", "아이콘+텍스트"],
+        "bar_count": [2, 3, 4, 5],
+        "bar_color": ["대비색(회색vs녹색)", "그라데이션", "다색"],
+        "value_format": ["백분율", "금액", "기간", "점수"]
+      },
+      "examples": [
+        "SC13: '생산성 향상 비교' → Meta(M로고)+수백명·1년 바=~3% | Anthropic(A로고) 바=153%(녹색)"
+      ]
+    },
+    {
+      "id": "F12-split-image-text",
+      "name": "이미지+텍스트 분할",
+      "description": "한쪽에 큰 이미지/일러스트, 반대쪽에 텍스트 콘텐츠.",
+      "reference": ["SC 18", "SC 21", "SC 30"],
+      "structure": {
+        "columns": 2,
+        "zones": [
+          {"id": "image", "position": "left(40%)", "role": "큰 SVG 일러스트, 인물사진, 스크린샷"},
+          {"id": "content", "position": "right(60%)", "role": "번호+제목+설명+인용문/리스트"}
+        ]
+      },
+      "slot_variations": {
+        "image": ["SVG일러스트", "인물사진(원형)", "스크린샷", "DevIcon(거대)", "비디오썸네일"],
+        "content_structure": ["번호+제목+설명+인용", "제목+BulletList", "Headline+BodyText+Badge"]
+      },
+      "examples": [
+        "SC18: 문서아이콘(좌,큰) | ①지시서 → 'AI한테 줄 텍스트 파일' → 인용3줄(녹색)",
+        "SC21: SVG일러스트(좌) | RALPH WIGGUM LOOP → 제목 → 설명"
+      ]
+    },
+    {
+      "id": "F13-before-after",
+      "name": "Before/After 전환",
+      "description": "좌우 분할로 이전/이후, 부정/긍정, 옛방식/새방식을 대비. ✗/◎ 아이콘+톤 차이로 시각 차별화.",
+      "reference": [],
+      "structure": {
+        "columns": 2,
+        "zones": [
+          {"id": "header", "position": "top-full", "height": "10%", "role": "맥락 라벨 (해석 프레임)"},
+          {"id": "before", "position": "left", "width": "50%", "role": "✗ 아이콘 + 테마(어두운 톤) + 보조설명"},
+          {"id": "after", "position": "right", "width": "50%", "role": "◎ 아이콘(강조색 글로우) + 테마 + 보조설명"},
+          {"id": "declaration", "position": "bottom-full", "height": "15%", "role": "전환 선언 (강조색 키워드)"}
+        ]
+      },
+      "slot_variations": {
+        "before_icon": ["✗ CheckMark", "회색 아이콘", "어두운 카드"],
+        "after_icon": ["◎ 타겟 아이콘(글로우)", "강조색 CheckMark", "밝은 카드"],
+        "divider": ["화살표(→)", "수직선", "vs"],
+        "declaration": ["전환 선언 텍스트", "강조 Headline", "없음"]
+      },
+      "examples": [
+        "Split(arrow): ✗+'단순 도구'+설명 | ◎+'패러다임 전환'+설명 → '시대가 바뀌���습니다'",
+        "Split(arrow): 회색카드(이전 역할) → 강조카드(현재 역할) + 요약라벨"
+      ]
+    },
+    {
+      "id": "F14-myth-reality",
+      "name": "오해 깨기 대화",
+      "description": "좌우 말풍선으로 myth(사용자 오해) vs reality(AI 교정)를 대화 형태로 전달.",
+      "reference": [],
+      "structure": {
+        "columns": 2,
+        "zones": [
+          {"id": "myth", "position": "left", "width": "50%", "role": "인물 아이콘(흰색) + 말풍선(흰 테두리) — 사용자의 오해"},
+          {"id": "reality", "position": "right", "width": "50%", "role": "AI 아이콘(강조색) + 말풍선(강조 테두리) — 반론/교정"},
+          {"id": "footer", "position": "bottom-full", "height": "10%", "role": "반론 요약"}
+        ]
+      },
+      "slot_variations": {
+        "myth_icon": ["PersonAvatar(흰색)", "물음표 아이콘"],
+        "reality_icon": ["DevIcon(AI)", "CheckMark(success)"],
+        "format": ["ChatBubble(대화형)", "Split+Headline(선언형)"]
+      },
+      "examples": [
+        "Split(line): PersonAvatar+ChatBubble('알림 앱 만들어줘') | DevIcon+ChatBubble('잠깐요! 그건 알림 앱이 아니에요')"
+      ]
+    },
+    {
+      "id": "F15-input-output",
+      "name": "입력→처리→출력 플로우",
+      "description": "좌→우 수평 흐름으로 입력·변환·산출을 3블록으로 시각화. 합류/분기 변형 포함.",
+      "reference": [],
+      "structure": {
+        "columns": "3-5",
+        "zones": [
+          {"id": "header", "position": "top", "height": "10%", "role": "맥락 라벨"},
+          {"id": "input", "position": "left", "width": "25%", "role": "입력 블록 (아이콘/파일/프롬프트)"},
+          {"id": "process", "position": "center", "width": "25%", "role": "처리 블록 (AI 아이콘, 강조색)"},
+          {"id": "output", "position": "right", "width": "25%", "role": "출력 블록 (뱃지/카드/다중 항목)"},
+          {"id": "footer", "position": "bottom", "height": "10%", "role": "결론 텍스트"}
+        ]
+      },
+      "slot_variations": {
+        "input": ["DevIcon+라벨", "FrameBox(프롬프트 입력창)", "ImageAsset(썸네일)"],
+        "process": ["DevIcon(AI, 글로우)", "NumberCircle(기어)", "SvgGraphic(화살표)"],
+        "output": ["Badge × 3 수직", "FrameBox(결과 카드)", "Stack(카드 3열)"],
+        "flow_type": ["단방향(→)", "합류(← 중앙 →)", "분기(→ 다중 출력)"],
+        "connector": ["ArrowConnector", "점선", "없음"]
+      },
+      "examples": [
+        "Stack(row): 이미지 → ArrowConnector → AI아이콘(글로우) → ArrowConnector → Badge×3",
+        "Stack(row): ?아이콘(철학) → 중앙 제품아이콘(합류) ← { }아이콘(기술)"
+      ]
+    },
+    {
+      "id": "F16-donut-hero",
+      "name": "도넛 히어로 + 내역 분할",
+      "description": "대형 RingChart가 숫자의 스케일 감각을, 우측 리스트가 내역/행동을 동시 전달.",
+      "reference": [],
+      "structure": {
+        "columns": 2,
+        "zones": [
+          {"id": "header", "position": "top-full", "height": "10%", "role": "맥락 라벨 (조건/상황 프레이밍)"},
+          {"id": "donut", "position": "left", "width": "40%", "role": "대형 RingChart (내부 히어로 넘버 + 단위)"},
+          {"id": "detail", "position": "right", "width": "60%", "role": "BulletList/CheckMark 리스트 (내역 또는 행동)"},
+          {"id": "footer", "position": "bottom-full", "height": "10%", "role": "선언 자막 또는 캡션"}
+        ]
+      },
+      "slot_variations": {
+        "donut_value": ["백분율(80%)", "절대수(100만)", "오버플로우(200%)"],
+        "detail_type": ["CheckMark 리스트", "BulletList", "IconCard 행", "Badge+설명"],
+        "ratio": ["1:2(도넛:리스트)", "1:1(균형)", "2:1(도넛 강조)"]
+      },
+      "examples": [
+        "Split(gap): RingChart(92%,'AI 도구 사용률') | Headline+BulletList(check, 3항목)",
+        "Split(line): Kicker('사업 도입 시')+RingChart(80%,'비용') | CheckMark×2('모델 선택→비용 최적화')"
+      ]
+    }
+  ]
+}
