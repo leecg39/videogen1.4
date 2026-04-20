@@ -1,0 +1,20 @@
+{
+  "name": "newvideogen-local",
+  "interface": {
+    "displayName": "newVideoGen Local"
+  },
+  "plugins": [
+    {
+      "name": "videogen1-4",
+      "source": {
+        "source": "local",
+        "path": "./plugins/videogen1-4"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Video Production"
+    }
+  ]
+}

@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "scene-0",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 0,
+    "layout_family": "hero-center",
+    "start_ms": 0,
+    "end_ms": 10900,
+    "duration_frames": 654,
+    "components": [
+      {
+        "id": "hero-bg",
+        "type": "background",
+        "props": {}
+      },
+      {
+        "id": "hero-text",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "사장님들, 정말 중요한 변화가 있습니다. 지금부터 딱 집중해 주세요.",
+      "supporting": "혹시 우리 공장 기계 소리가 마치 시간 다 됐다는 초침 소리처럼 들리시나요?",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 2,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 2.854,
+        "text": "사장님들, 정말 중요한 변화가 있습니다."
+      },
+      {
+        "startTime": 2.854,
+        "endTime": 4.8,
+        "text": "지금부터 딱 집중해 주세요."
+      },
+      {
+        "startTime": 5.48,
+        "endTime": 10.9,
+        "text": "혹시 우리 공장 기계 소리가 마치 시간 다 됐다는 초침 소리처럼 들리시나요?"
+      }
+    ],
+    "narration": "사장님들, 정말 중요한 변화가 있습니다. 지금부터 딱 집중해 주세요. 혹시 우리 공장 기계 소리가 마치 시간 다 됐다는 초침 소리처럼 들리시나요?",
+    "layout_reference": {
+      "primary_family_id": "hero-callout",
+      "references": [
+        {
+          "id": "template-20",
+          "svg_path": "public/assets/svg/템플릿20.svg",
+          "family_id": "hero-callout",
+          "motif_ids": [
+            "center-hero-title",
+            "four-up-icon-grid"
+          ]
+        },
+        {
+          "id": "template-14",
+          "svg_path": "public/assets/svg/템플릿14.svg",
+          "family_id": "hero-callout",
+          "motif_ids": [
+            "center-hero-title",
+            "badge-led-summary"
+          ]
+        },
+        {
+          "id": "template-18",
+          "svg_path": "public/assets/svg/템플릿18.svg",
+          "family_id": "radial-cluster",
+          "motif_ids": [
+            "orbit-node-cluster",
+            "hub-spoke-discs"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "center-hero-title",
+        "four-up-icon-grid",
+        "badge-led-summary",
+        "orbit-node-cluster",
+        "hub-spoke-discs"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "hero-center 구조 안에서 Center Hero Title, Four-Up Icon Grid, Badge Led Summary 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P03_weekly_bars",
+      "relationship": "metric",
+      "focal": {
+        "type": "CompareBars",
+        "value": null,
+        "label": "사장님들",
+        "note": "items[] 로 2~7개 막대 구성"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "사장님들"
+        },
+        {
+          "type": "FooterCaption",
+          "text": "변화가"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": null,
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=medium → 주간 7-막대 그래프"
+    }
+  },
+  {
+    "id": "scene-1",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 2,
+    "layout_family": "split-2col",
+    "start_ms": 11660,
+    "end_ms": 21820,
+    "duration_frames": 610,
+    "components": [
+      {
+        "id": "col-left",
+        "type": "text-block",
+        "props": {}
+      },
+      {
+        "id": "col-right",
+        "type": "visual",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "현실이 그렇습니다. 제조업 CEO 셋 중간부는 60세 이상, 근데 후계자는 없죠.",
+      "supporting": "자녀들은 부모님 고생하는 걸 봤으니까요. 자기 길을 가겠다고 하는 겁니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 3,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 1.181,
+        "text": "현실이 그렇습니다."
+      },
+      {
+        "startTime": 1.181,
+        "endTime": 3.78,
+        "text": "제조업 CEO 셋 중간부는 60세 이상,"
+      },
+      {
+        "startTime": 3.78,
+        "endTime": 5.08,
+        "text": "근데 후계자는 없죠."
+      },
+      {
+        "startTime": 5.7,
+        "endTime": 8.153,
+        "text": "자녀들은 부모님 고생하는 걸 봤으니까요."
+      },
+      {
+        "startTime": 8.153,
+        "endTime": 10.16,
+        "text": "자기 길을 가겠다고 하는 겁니다."
+      }
+    ],
+    "narration": "현실이 그렇습니다. 제조업 CEO 셋 중간부는 60세 이상, 근데 후계자는 없죠. 자녀들은 부모님 고생하는 걸 봤으니까요. 자기 길을 가겠다고 하는 겁니다.",
+    "layout_reference": {
+      "primary_family_id": "comparison-columns",
+      "references": [
+        {
+          "id": "template-1",
+          "svg_path": "public/assets/svg/템플릿1.svg",
+          "family_id": "comparison-columns",
+          "motif_ids": [
+            "dual-contrast-pillars",
+            "device-spotlight",
+            "center-hero-title"
+          ]
+        },
+        {
+          "id": "template-5",
+          "svg_path": "public/assets/svg/템플릿5.svg",
+          "family_id": "comparison-columns",
+          "motif_ids": [
+            "dual-contrast-pillars",
+            "metric-bar-strip"
+          ]
+        },
+        {
+          "id": "template-23",
+          "svg_path": "public/assets/svg/템플릿23.svg",
+          "family_id": "device-spotlight",
+          "motif_ids": [
+            "device-spotlight",
+            "asymmetric-feature-panel"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "dual-contrast-pillars",
+        "device-spotlight",
+        "center-hero-title",
+        "metric-bar-strip",
+        "asymmetric-feature-panel"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "split-2col 구조 안에서 Dual Contrast Pillars, Device Spotlight, Center Hero Title 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P04_ring_with_bullets",
+      "relationship": "metric",
+      "focal": {
+        "type": "RingChart",
+        "value": 60,
+        "label": "현실이"
+      },
+      "support": [
+        {
+          "type": "BulletList",
+          "items": [
+            "현실이",
+            "그렇습니다",
+            "제조업"
+          ]
+        },
+        {
+          "type": "FooterCaption",
+          "text": "CEO"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": "Stack",
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=medium → 링차트 + 불릿 리스트"
+    }
+  },
+  {
+    "id": "scene-2",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 4,
+    "layout_family": "grid-4x3",
+    "start_ms": 21820,
+    "end_ms": 33160,
+    "duration_frames": 680,
+    "components": [
+      {
+        "id": "grid-container",
+        "type": "grid",
+        "props": {}
+      },
+      {
+        "id": "grid-title",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "그럼 남은 선택지는 둘 중 하나죠. 헐값에 넘기거나 아니면 그냥 문을 닫거나.",
+      "supporting": "이게 바로 흑자 폐업입니다. 남의 얘기가 아니라 이제 우리 현실이 됐습니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 3,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 2.579,
+        "text": "그럼 남은 선택지는 둘 중 하나죠."
+      },
+      {
+        "startTime": 2.579,
+        "endTime": 5.7,
+        "text": "헐값에 넘기거나 아니면 그냥 문을 닫거나."
+      },
+      {
+        "startTime": 5.7,
+        "endTime": 7.763,
+        "text": "이게 바로 흑자 폐업입니다."
+      },
+      {
+        "startTime": 7.763,
+        "endTime": 11.34,
+        "text": "남의 얘기가 아니라 이제 우리 현실이 됐습니다."
+      }
+    ],
+    "narration": "그럼 남은 선택지는 둘 중 하나죠. 헐값에 넘기거나 아니면 그냥 문을 닫거나. 이게 바로 흑자 폐업입니다. 남의 얘기가 아니라 이제 우리 현실이 됐습니다.",
+    "layout_reference": {
+      "primary_family_id": "icon-grid",
+      "references": [
+        {
+          "id": "template-9",
+          "svg_path": "public/assets/svg/템플릿9.svg",
+          "family_id": "icon-grid",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "hub-spoke-discs",
+            "badge-led-summary"
+          ]
+        },
+        {
+          "id": "template-13",
+          "svg_path": "public/assets/svg/템플릿13.svg",
+          "family_id": "icon-grid",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "stacked-detail-cards"
+          ]
+        },
+        {
+          "id": "template-11",
+          "svg_path": "public/assets/svg/템플릿11.svg",
+          "family_id": "dashboard-board",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "stacked-detail-cards"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "four-up-icon-grid",
+        "hub-spoke-discs",
+        "badge-led-summary",
+        "stacked-detail-cards"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "grid-4x3 구조 안에서 Four-Up Icon Grid, Hub Spoke Discs, Badge Led Summary 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P31_ai_comparison_triangle",
+      "relationship": "contrast",
+      "focal": {
+        "type": "BrandSatellite",
+        "label": "그럼"
+      },
+      "support": [
+        {
+          "type": "Headline",
+          "text": "그럼"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": null,
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "dense",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=dense → AI 3사 삼각 비교"
+    }
+  },
+  {
+    "id": "scene-3",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 6,
+    "layout_family": "process-horizontal",
+    "start_ms": 33660,
+    "end_ms": 45020,
+    "duration_frames": 682,
+    "components": [
+      {
+        "id": "process-flow",
+        "type": "process",
+        "props": {}
+      },
+      {
+        "id": "process-label",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "그런데 만약 세 번째 방법이 생긴다면요? 정부가 드디어 나섰습니다.",
+      "supporting": "바로 M&A 특별법인데요. 이건 말 그대로 판을 바꾸는 게임 체인저가 될 겁니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 2,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 3.349,
+        "text": "그런데 만약 세 번째 방법이 생긴다면요?"
+      },
+      {
+        "startTime": 3.349,
+        "endTime": 5.48,
+        "text": "정부가 드디어 나섰습니다."
+      },
+      {
+        "startTime": 6.04,
+        "endTime": 7.733,
+        "text": "바로 M&A 특별법인데요."
+      },
+      {
+        "startTime": 7.733,
+        "endTime": 11.36,
+        "text": "이건 말 그대로 판을 바꾸는 게임 체인저가 될 겁니다."
+      }
+    ],
+    "narration": "그런데 만약 세 번째 방법이 생긴다면요? 정부가 드디어 나섰습니다. 바로 M&A 특별법인데요. 이건 말 그대로 판을 바꾸는 게임 체인저가 될 겁니다.",
+    "layout_reference": {
+      "primary_family_id": "process-ribbon",
+      "references": [
+        {
+          "id": "template-12",
+          "svg_path": "public/assets/svg/템플릿12.svg",
+          "family_id": "process-ribbon",
+          "motif_ids": [
+            "horizontal-process-ribbon",
+            "asymmetric-feature-panel"
+          ]
+        },
+        {
+          "id": "template-16",
+          "svg_path": "public/assets/svg/템플릿16.svg",
+          "family_id": "process-ribbon",
+          "motif_ids": [
+            "horizontal-process-ribbon",
+            "center-hero-title"
+          ]
+        },
+        {
+          "id": "template-8",
+          "svg_path": "public/assets/svg/템플릿8.svg",
+          "family_id": "step-rail",
+          "motif_ids": [
+            "vertical-step-rail",
+            "badge-led-summary"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "horizontal-process-ribbon",
+        "asymmetric-feature-panel",
+        "center-hero-title",
+        "vertical-step-rail",
+        "badge-led-summary"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "process-horizontal 구조 안에서 Horizontal Process Ribbon, Asymmetric Feature Panel, Center Hero Title 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P19_two_col_contrast",
+      "relationship": "contrast",
+      "focal": {
+        "type": "VersusCard",
+        "label": "그런데",
+        "note": "leftLabel / rightLabel 15자 이내"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "그런데"
+        },
+        {
+          "type": "CheckMark",
+          "text": "그런데"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": "Split",
+      "composition_direction": "horizontal",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=horizontal typo=standard density=medium → 2열 대비 (✓ vs ✗)"
+    }
+  },
+  {
+    "id": "scene-4",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 8,
+    "layout_family": "hero-center",
+    "start_ms": 45160,
+    "end_ms": 56520,
+    "duration_frames": 682,
+    "components": [
+      {
+        "id": "hero-bg",
+        "type": "background",
+        "props": {}
+      },
+      {
+        "id": "hero-text",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "핵심은 이겁니다. 이제 제3자에게 회사를 파는 것도 공식적인 승계가 된다는 거죠.",
+      "supporting": "첫째, M&A 준비해두는 수천만 원. 정부가 대신 내줍니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 3,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 1.24,
+        "text": "핵심은 이겁니다."
+      },
+      {
+        "startTime": 1.24,
+        "endTime": 6.06,
+        "text": "이제 제3자에게 회사를 파는 것도 공식적인 승계가 된다는 거죠."
+      },
+      {
+        "startTime": 6.62,
+        "endTime": 9.583,
+        "text": "첫째, M&A 준비해두는 수천만 원."
+      },
+      {
+        "startTime": 9.583,
+        "endTime": 11.36,
+        "text": "정부가 대신 내줍니다."
+      }
+    ],
+    "narration": "핵심은 이겁니다. 이제 제3자에게 회사를 파는 것도 공식적인 승계가 된다는 거죠. 첫째, M&A 준비해두는 수천만 원. 정부가 대신 내줍니다.",
+    "layout_reference": {
+      "primary_family_id": "hero-callout",
+      "references": [
+        {
+          "id": "template-20",
+          "svg_path": "public/assets/svg/템플릿20.svg",
+          "family_id": "hero-callout",
+          "motif_ids": [
+            "center-hero-title",
+            "four-up-icon-grid"
+          ]
+        },
+        {
+          "id": "template-14",
+          "svg_path": "public/assets/svg/템플릿14.svg",
+          "family_id": "hero-callout",
+          "motif_ids": [
+            "center-hero-title",
+            "badge-led-summary"
+          ]
+        },
+        {
+          "id": "template-18",
+          "svg_path": "public/assets/svg/템플릿18.svg",
+          "family_id": "radial-cluster",
+          "motif_ids": [
+            "orbit-node-cluster",
+            "hub-spoke-discs"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "center-hero-title",
+        "four-up-icon-grid",
+        "badge-led-summary",
+        "orbit-node-cluster",
+        "hub-spoke-discs"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "hero-center 구조 안에서 Center Hero Title, Four-Up Icon Grid, Badge Led Summary 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P08_vertical_timeline",
+      "relationship": "flow",
+      "focal": {
+        "type": "AnimatedTimeline",
+        "label": "핵심은",
+        "note": "steps[] 2 단계 + stepEnterAts 자막 싱크"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "핵심은"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": null,
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "sparse",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=sparse → 세로 타임라인 (원+연결선)"
+    }
+  },
+  {
+    "id": "scene-5",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 10,
+    "layout_family": "split-2col",
+    "start_ms": 56520,
+    "end_ms": 67120,
+    "duration_frames": 636,
+    "components": [
+      {
+        "id": "col-left",
+        "type": "text-block",
+        "props": {}
+      },
+      {
+        "id": "col-right",
+        "type": "visual",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "딱 이 비유가 맞죠. 시작할 때 가장 큰 돈 걱정을 덜어주는 겁니다.",
+      "supporting": "둘째, 소문 걱정 없이 구매자를 찾을 수 있는 안전한 플랫폼이 생깁니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 3,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 1.522,
+        "text": "딱 이 비유가 맞죠."
+      },
+      {
+        "startTime": 1.522,
+        "endTime": 5.12,
+        "text": "시작할 때 가장 큰 돈 걱정을 덜어주는 겁니다."
+      },
+      {
+        "startTime": 5.92,
+        "endTime": 6.28,
+        "text": "둘째,"
+      },
+      {
+        "startTime": 6.28,
+        "endTime": 10.6,
+        "text": "소문 걱정 없이 구매자를 찾을 수 있는 안전한 플랫폼이 생깁니다."
+      }
+    ],
+    "narration": "딱 이 비유가 맞죠. 시작할 때 가장 큰 돈 걱정을 덜어주는 겁니다. 둘째, 소문 걱정 없이 구매자를 찾을 수 있는 안전한 플랫폼이 생깁니다.",
+    "layout_reference": {
+      "primary_family_id": "comparison-columns",
+      "references": [
+        {
+          "id": "template-1",
+          "svg_path": "public/assets/svg/템플릿1.svg",
+          "family_id": "comparison-columns",
+          "motif_ids": [
+            "dual-contrast-pillars",
+            "device-spotlight",
+            "center-hero-title"
+          ]
+        },
+        {
+          "id": "template-5",
+          "svg_path": "public/assets/svg/템플릿5.svg",
+          "family_id": "comparison-columns",
+          "motif_ids": [
+            "dual-contrast-pillars",
+            "metric-bar-strip"
+          ]
+        },
+        {
+          "id": "template-23",
+          "svg_path": "public/assets/svg/템플릿23.svg",
+          "family_id": "device-spotlight",
+          "motif_ids": [
+            "device-spotlight",
+            "asymmetric-feature-panel"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "dual-contrast-pillars",
+        "device-spotlight",
+        "center-hero-title",
+        "metric-bar-strip",
+        "asymmetric-feature-panel"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "split-2col 구조 안에서 Dual Contrast Pillars, Device Spotlight, Center Hero Title 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P28_priority_color_list",
+      "relationship": "enumerate",
+      "focal": {
+        "type": "BulletList",
+        "label": "비유가",
+        "note": "items[] 3~5개"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "비유가"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": "Stack",
+      "composition_direction": "left",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=left typo=standard density=medium → 컬러 숫자 우선순위 리스트"
+    }
+  },
+  {
+    "id": "scene-6",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 12,
+    "layout_family": "grid-4x3",
+    "start_ms": 67780,
+    "end_ms": 78060,
+    "duration_frames": 617,
+    "components": [
+      {
+        "id": "grid-container",
+        "type": "grid",
+        "props": {}
+      },
+      {
+        "id": "grid-title",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "예전처럼 불안에 떨 필요가 없어요. 완전히 새로운 안전한 방식이 도입됩니다.",
+      "supporting": "우리 회사 정보는 철저히 비밀보장되고 검증된 사람한테만 공개되니 안심이죠.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 2,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 2.261,
+        "text": "예전처럼 불안에 떨 필요가 없어요."
+      },
+      {
+        "startTime": 2.261,
+        "endTime": 4.88,
+        "text": "완전히 새로운 안전한 방식이 도입됩니다."
+      },
+      {
+        "startTime": 5.52,
+        "endTime": 7.9,
+        "text": "우리 회사 정보는 철저히 비밀보장되고"
+      },
+      {
+        "startTime": 7.9,
+        "endTime": 10.28,
+        "text": "검증된 사람한테만 공개되니 안심이죠."
+      }
+    ],
+    "narration": "예전처럼 불안에 떨 필요가 없어요. 완전히 새로운 안전한 방식이 도입됩니다. 우리 회사 정보는 철저히 비밀보장되고 검증된 사람한테만 공개되니 안심이죠.",
+    "layout_reference": {
+      "primary_family_id": "icon-grid",
+      "references": [
+        {
+          "id": "template-9",
+          "svg_path": "public/assets/svg/템플릿9.svg",
+          "family_id": "icon-grid",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "hub-spoke-discs",
+            "badge-led-summary"
+          ]
+        },
+        {
+          "id": "template-13",
+          "svg_path": "public/assets/svg/템플릿13.svg",
+          "family_id": "icon-grid",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "stacked-detail-cards"
+          ]
+        },
+        {
+          "id": "template-11",
+          "svg_path": "public/assets/svg/템플릿11.svg",
+          "family_id": "dashboard-board",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "stacked-detail-cards"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "four-up-icon-grid",
+        "hub-spoke-discs",
+        "badge-led-summary",
+        "stacked-detail-cards"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "grid-4x3 구조 안에서 Four-Up Icon Grid, Hub Spoke Discs, Badge Led Summary 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P05_ring_triplet",
+      "relationship": "enumerate",
+      "focal": {
+        "type": "RingChart",
+        "value": null,
+        "label": "예전처럼"
+      },
+      "support": [
+        {
+          "type": "RingChart",
+          "text": "불안에"
+        },
+        {
+          "type": "RingChart",
+          "text": "불안에"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": "Grid",
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "dense",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=dense → 링차트 3개 병렬"
+    }
+  },
+  {
+    "id": "scene-7",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 14,
+    "layout_family": "process-horizontal",
+    "start_ms": 78860,
+    "end_ms": 88780,
+    "duration_frames": 595,
+    "components": [
+      {
+        "id": "process-flow",
+        "type": "process",
+        "props": {}
+      },
+      {
+        "id": "process-label",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "셋째, 지로하고 길었던 법적 절차가 아주 빨라집니다.",
+      "supporting": "이런 변화들이 모여서 시간과 돈을 아껴주는 거죠. 거래도 훨씬 수월해지고요.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 2,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 3.72,
+        "text": "셋째, 지로하고 길었던 법적 절차가 아주 빨라집니다."
+      },
+      {
+        "startTime": 3.72,
+        "endTime": 7.803,
+        "text": "이런 변화들이 모여서 시간과 돈을 아껴주는 거죠."
+      },
+      {
+        "startTime": 7.803,
+        "endTime": 9.92,
+        "text": "거래도 훨씬 수월해지고요."
+      }
+    ],
+    "narration": "셋째, 지로하고 길었던 법적 절차가 아주 빨라집니다. 이런 변화들이 모여서 시간과 돈을 아껴주는 거죠. 거래도 훨씬 수월해지고요.",
+    "layout_reference": {
+      "primary_family_id": "process-ribbon",
+      "references": [
+        {
+          "id": "template-12",
+          "svg_path": "public/assets/svg/템플릿12.svg",
+          "family_id": "process-ribbon",
+          "motif_ids": [
+            "horizontal-process-ribbon",
+            "asymmetric-feature-panel"
+          ]
+        },
+        {
+          "id": "template-16",
+          "svg_path": "public/assets/svg/템플릿16.svg",
+          "family_id": "process-ribbon",
+          "motif_ids": [
+            "horizontal-process-ribbon",
+            "center-hero-title"
+          ]
+        },
+        {
+          "id": "template-8",
+          "svg_path": "public/assets/svg/템플릿8.svg",
+          "family_id": "step-rail",
+          "motif_ids": [
+            "vertical-step-rail",
+            "badge-led-summary"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "horizontal-process-ribbon",
+        "asymmetric-feature-panel",
+        "center-hero-title",
+        "vertical-step-rail",
+        "badge-led-summary"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "process-horizontal 구조 안에서 Horizontal Process Ribbon, Asymmetric Feature Panel, Center Hero Title 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P06_brand_bar_pair",
+      "relationship": "contrast",
+      "focal": {
+        "type": "DevIcon",
+        "label": "셋째",
+        "note": "브랜드/기술 로고. manifest에 있으면 ImageAsset 으로 교체 가능"
+      },
+      "support": [
+        {
+          "type": "CompareBars",
+          "items": [
+            "셋째",
+            "지로하고",
+            "길었던"
+          ],
+          "note": "2~3 항목. value 는 realize 단계에서 결정"
+        },
+        {
+          "type": "FooterCaption",
+          "text": "법적"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": "Split",
+      "composition_direction": "horizontal",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=horizontal typo=standard density=medium → 브랜드 로고 + 비교 바"
+    }
+  },
+  {
+    "id": "scene-8",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 16,
+    "layout_family": "hero-center",
+    "start_ms": 89340,
+    "end_ms": 100120,
+    "duration_frames": 647,
+    "components": [
+      {
+        "id": "hero-bg",
+        "type": "background",
+        "props": {}
+      },
+      {
+        "id": "hero-text",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "이건 그냥 회사를 파는 게 아니에요. 평생 일군 내 산업의 가치를 지키는 전략이죠.",
+      "supporting": "그러니까 매각은 도망치는 게 아니라 명예로운 퇴장이 되는 겁니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 3,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 2.24,
+        "text": "이건 그냥 회사를 파는 게 아니에요."
+      },
+      {
+        "startTime": 2.24,
+        "endTime": 5.04,
+        "text": "평생 일군 내 산업의 가치를 지키는 전략이죠."
+      },
+      {
+        "startTime": 5.84,
+        "endTime": 10.78,
+        "text": "그러니까 매각은 도망치는 게 아니라 명예로운 퇴장이 되는 겁니다."
+      }
+    ],
+    "narration": "이건 그냥 회사를 파는 게 아니에요. 평생 일군 내 산업의 가치를 지키는 전략이죠. 그러니까 매각은 도망치는 게 아니라 명예로운 퇴장이 되는 겁니다.",
+    "layout_reference": {
+      "primary_family_id": "hero-callout",
+      "references": [
+        {
+          "id": "template-20",
+          "svg_path": "public/assets/svg/템플릿20.svg",
+          "family_id": "hero-callout",
+          "motif_ids": [
+            "center-hero-title",
+            "four-up-icon-grid"
+          ]
+        },
+        {
+          "id": "template-14",
+          "svg_path": "public/assets/svg/템플릿14.svg",
+          "family_id": "hero-callout",
+          "motif_ids": [
+            "center-hero-title",
+            "badge-led-summary"
+          ]
+        },
+        {
+          "id": "template-18",
+          "svg_path": "public/assets/svg/템플릿18.svg",
+          "family_id": "radial-cluster",
+          "motif_ids": [
+            "orbit-node-cluster",
+            "hub-spoke-discs"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "center-hero-title",
+        "four-up-icon-grid",
+        "badge-led-summary",
+        "orbit-node-cluster",
+        "hub-spoke-discs"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "hero-center 구조 안에서 Center Hero Title, Four-Up Icon Grid, Badge Led Summary 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P09_number_chain_arrow",
+      "relationship": "flow",
+      "focal": {
+        "type": "FlowDiagram",
+        "label": "이건",
+        "note": "steps[] 2~5개 + stepEnterAts"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "이건"
+        },
+        {
+          "type": "FooterCaption",
+          "text": "파는"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": null,
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=medium → 번호 체인 화살표"
+    }
+  },
+  {
+    "id": "scene-9",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 18,
+    "layout_family": "split-2col",
+    "start_ms": 100680,
+    "end_ms": 111240,
+    "duration_frames": 634,
+    "components": [
+      {
+        "id": "col-left",
+        "type": "text-block",
+        "props": {}
+      },
+      {
+        "id": "col-right",
+        "type": "visual",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "평생의 노력을 보상받고 직원들 일자리도 지키고 회사는 더 크게 성장하고요.",
+      "supporting": "근데 이 지원 그냥 주어지는 게 아닙니다. 미리 준비하는 회사만이 잡을 수 있어요.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 2,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 1.551,
+        "text": "평생의 노력을 보상받고"
+      },
+      {
+        "startTime": 1.551,
+        "endTime": 3.102,
+        "text": "직원들 일자리도 지키고"
+      },
+      {
+        "startTime": 3.102,
+        "endTime": 5.04,
+        "text": "회사는 더 크게 성장하고요."
+      },
+      {
+        "startTime": 5.04,
+        "endTime": 7.861,
+        "text": "근데 이 지원 그냥 주어지는 게 아닙니다."
+      },
+      {
+        "startTime": 7.861,
+        "endTime": 10.56,
+        "text": "미리 준비하는 회사만이 잡을 수 있어요."
+      }
+    ],
+    "narration": "평생의 노력을 보상받고 직원들 일자리도 지키고 회사는 더 크게 성장하고요. 근데 이 지원 그냥 주어지는 게 아닙니다. 미리 준비하는 회사만이 잡을 수 있어요.",
+    "layout_reference": {
+      "primary_family_id": "comparison-columns",
+      "references": [
+        {
+          "id": "template-1",
+          "svg_path": "public/assets/svg/템플릿1.svg",
+          "family_id": "comparison-columns",
+          "motif_ids": [
+            "dual-contrast-pillars",
+            "device-spotlight",
+            "center-hero-title"
+          ]
+        },
+        {
+          "id": "template-5",
+          "svg_path": "public/assets/svg/템플릿5.svg",
+          "family_id": "comparison-columns",
+          "motif_ids": [
+            "dual-contrast-pillars",
+            "metric-bar-strip"
+          ]
+        },
+        {
+          "id": "template-23",
+          "svg_path": "public/assets/svg/템플릿23.svg",
+          "family_id": "device-spotlight",
+          "motif_ids": [
+            "device-spotlight",
+            "asymmetric-feature-panel"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "dual-contrast-pillars",
+        "device-spotlight",
+        "center-hero-title",
+        "metric-bar-strip",
+        "asymmetric-feature-panel"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "split-2col 구조 안에서 Dual Contrast Pillars, Device Spotlight, Center Hero Title 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P07_tile_triplet",
+      "relationship": "enumerate",
+      "focal": {
+        "type": "Grid",
+        "label": "평생의",
+        "note": "columns:3 + 각 셀 label+value"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "평생의"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": "Grid",
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=medium → 타일 3개 (라벨+값)"
+    }
+  },
+  {
+    "id": "scene-10",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 20,
+    "layout_family": "grid-4x3",
+    "start_ms": 111800,
+    "end_ms": 124720,
+    "duration_frames": 775,
+    "components": [
+      {
+        "id": "grid-container",
+        "type": "grid",
+        "props": {}
+      },
+      {
+        "id": "grid-title",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "우리 회사 가치를 제대로 인정받으려면 지금부터 내부를 잘 다져놔야 합니다.",
+      "supporting": "회사의 첫 장은 직접 쓰셨죠? 그럼 다음 장은 누가 쓰게 하시겠습니까? 감사합니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 1500
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 2,
+      "beat_count": 4
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 2.46,
+        "text": "우리 회사 가치를 제대로 인정받으려면"
+      },
+      {
+        "startTime": 2.46,
+        "endTime": 4.92,
+        "text": "지금부터 내부를 잘 다져놔야 합니다."
+      },
+      {
+        "startTime": 5.54,
+        "endTime": 7.384,
+        "text": "회사의 첫 장은 직접 쓰셨죠?"
+      },
+      {
+        "startTime": 7.384,
+        "endTime": 9.92,
+        "text": "그럼 다음 장은 누가 쓰게 하시겠습니까?"
+      },
+      {
+        "startTime": 9.92,
+        "endTime": 11.92,
+        "text": "감사합니다."
+      },
+      {
+        "startTime": 11.92,
+        "endTime": 12.92,
+        "text": "감사합니다."
+      }
+    ],
+    "narration": "우리 회사 가치를 제대로 인정받으려면 지금부터 내부를 잘 다져놔야 합니다. 회사의 첫 장은 직접 쓰셨죠? 그럼 다음 장은 누가 쓰게 하시겠습니까? 감사합니다. 감사합니다.",
+    "layout_reference": {
+      "primary_family_id": "icon-grid",
+      "references": [
+        {
+          "id": "template-9",
+          "svg_path": "public/assets/svg/템플릿9.svg",
+          "family_id": "icon-grid",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "hub-spoke-discs",
+            "badge-led-summary"
+          ]
+        },
+        {
+          "id": "template-13",
+          "svg_path": "public/assets/svg/템플릿13.svg",
+          "family_id": "icon-grid",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "stacked-detail-cards"
+          ]
+        },
+        {
+          "id": "template-11",
+          "svg_path": "public/assets/svg/템플릿11.svg",
+          "family_id": "dashboard-board",
+          "motif_ids": [
+            "four-up-icon-grid",
+            "stacked-detail-cards"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "four-up-icon-grid",
+        "hub-spoke-discs",
+        "badge-led-summary",
+        "stacked-detail-cards"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "grid-4x3 구조 안에서 Four-Up Icon Grid, Hub Spoke Discs, Badge Led Summary 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P26_diagonal_flow",
+      "relationship": "flow",
+      "focal": {
+        "type": "DiagonalFlow",
+        "label": "우리"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "우리"
+        },
+        {
+          "type": "FooterCaption",
+          "text": "제대로"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": null,
+      "composition_direction": "diagonal",
+      "typo_variant": "standard",
+      "density": "medium",
+      "rationale": "intent=pending evidence=statement shot=- dir=diagonal typo=standard density=medium → 대각선 흐름 (↘)"
+    }
+  },
+  {
+    "id": "scene-11",
+    "project_id": "명예로운퇴장ma특별법",
+    "beat_index": 24,
+    "layout_family": "process-horizontal",
+    "start_ms": 124720,
+    "end_ms": 126720,
+    "duration_frames": 120,
+    "components": [
+      {
+        "id": "process-flow",
+        "type": "process",
+        "props": {}
+      },
+      {
+        "id": "process-label",
+        "type": "text-block",
+        "props": {}
+      }
+    ],
+    "copy_layers": {
+      "kicker": null,
+      "headline": "감사합니다.",
+      "supporting": "감사합니다.",
+      "footer_caption": null,
+      "hook": null,
+      "claim": null,
+      "evidence": null,
+      "counterpoint": null,
+      "annotation": null,
+      "cta": null
+    },
+    "motion": {
+      "entrance": "fadeUp",
+      "emphasis": null,
+      "exit": null,
+      "duration_ms": 800
+    },
+    "assets": {
+      "svg_icons": [],
+      "chart_type": null,
+      "chart_data": null
+    },
+    "chunk_metadata": {
+      "intent": "pending",
+      "tone": "neutral",
+      "evidence_type": "statement",
+      "emphasis_tokens": [],
+      "density": 1,
+      "beat_count": 2
+    },
+    "subtitles": [
+      {
+        "startTime": 0,
+        "endTime": 1,
+        "text": "감사합니다."
+      },
+      {
+        "startTime": 1,
+        "endTime": 2,
+        "text": "감사합니다."
+      }
+    ],
+    "narration": "감사합니다. 감사합니다.",
+    "layout_reference": {
+      "primary_family_id": "process-ribbon",
+      "references": [
+        {
+          "id": "template-12",
+          "svg_path": "public/assets/svg/템플릿12.svg",
+          "family_id": "process-ribbon",
+          "motif_ids": [
+            "horizontal-process-ribbon",
+            "asymmetric-feature-panel"
+          ]
+        },
+        {
+          "id": "template-16",
+          "svg_path": "public/assets/svg/템플릿16.svg",
+          "family_id": "process-ribbon",
+          "motif_ids": [
+            "horizontal-process-ribbon",
+            "center-hero-title"
+          ]
+        },
+        {
+          "id": "template-8",
+          "svg_path": "public/assets/svg/템플릿8.svg",
+          "family_id": "step-rail",
+          "motif_ids": [
+            "vertical-step-rail",
+            "badge-led-summary"
+          ]
+        }
+      ],
+      "motif_ids": [
+        "horizontal-process-ribbon",
+        "asymmetric-feature-panel",
+        "center-hero-title",
+        "vertical-step-rail",
+        "badge-led-summary"
+      ],
+      "guidance": [
+        "SVG 원본을 통째로 복사하지 말고 family와 motif 단위로 분해해서 사용할 것",
+        "process-horizontal 구조 안에서 Horizontal Process Ribbon, Asymmetric Feature Panel, Center Hero Title 모티프를 우선 차용할 것",
+        "scene block 내부에서는 같은 primary family를 유지하고, 자막 전개에 따라 support/reveal만 바꿀 것"
+      ]
+    },
+    "visual_plan": {
+      "pattern_ref": "P10_hub_satellite",
+      "relationship": "case",
+      "focal": {
+        "type": "CycleDiagram",
+        "label": "감사합니다",
+        "note": "centerLabel + 4~6 위성"
+      },
+      "support": [
+        {
+          "type": "Kicker",
+          "text": "감사합니다"
+        }
+      ],
+      "accent_color": "mint",
+      "recommended_container": null,
+      "composition_direction": "center",
+      "typo_variant": "standard",
+      "density": "sparse",
+      "rationale": "intent=pending evidence=statement shot=- dir=center typo=standard density=sparse → 허브 + 위성"
+    }
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "videogen1-4",
+  "version": "0.1.0",
+  "description": "Adds Codex guidance for the videogen1.4 Remotion video-generation repository.",
+  "author": {
+    "name": "leecg39",
+    "url": "https://github.com/leecg39"
+  },
+  "homepage": "https://github.com/leecg39/videogen1.4",
+  "repository": "https://github.com/leecg39/videogen1.4",
+  "keywords": [
+    "videogen",
+    "remotion",
+    "nextjs",
+    "video",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Videogen 1.4",
+    "shortDescription": "Helps Codex work inside the videogen1.4 video engine repo.",
+    "longDescription": "Adds repo-specific guidance for videogen1.4, including the Remotion scene pipeline, anti-slop layout rules, key renderer files, and the existing vg-* workflow skills shipped in the repository.",
+    "developerName": "leecg39",
+    "category": "Video Production",
+    "capabilities": [
+      "Codebase Guidance",
+      "Remotion Pipeline",
+      "Scene Design"
+    ],
+    "websiteURL": "https://github.com/leecg39/videogen1.4",
+    "defaultPrompt": [
+      "Videogen 1.4에서 장면 렌더 흐름이 어디서 이어지는지 정리해줘.",
+      "이 레포에서 새 scene TSX를 만들 때 먼저 읽어야 할 파일을 알려줘.",
+      "vg-new와 vg-layout 기준으로 전체 영상 파이프라인을 설명해줘."
+    ],
+    "brandColor": "#08060D",
+    "composerIcon": "./assets/videogen1-4-icon.svg",
+    "logo": "./assets/videogen1-4-logo.svg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "명예로운퇴장ma특별법",
+  "name": "명예로운_퇴장_M&A특별법",
+  "srt_path": "명예로운퇴장ma특별법.srt",
+  "audio_path": "audio/명예로운퇴장ma특별법.mp3",
+  "created_at": "2026-04-20T15:41:12.408Z",
+  "updated_at": "2026-04-20T16:09:28.108Z",
+  "status": "rendered",
+  "total_duration_ms": 124807,
+  "render": {
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "stylePack": "dark-neon"
+  }
+}
